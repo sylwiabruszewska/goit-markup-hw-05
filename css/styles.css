@@ -335,6 +335,24 @@ h1 {
   margin: 0;
 } */
 
+.img-card-item {
+  position: relative;
+}
+
+.img-card-item figcaption {
+  background-color: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+  line-height: 1.15;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 27px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
 .img-card-item,
 .staff-card-item {
   margin: 0;
