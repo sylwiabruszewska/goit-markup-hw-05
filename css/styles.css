@@ -111,6 +111,17 @@ h1 {
   color: var(--brand-color);
 }
 
+.active:after {
+  display: block;
+  content: "";
+  height: 4px;
+  background-color: var(--brand-color);
+  border-radius: 2px;
+  position: relative;
+  transform: translateY(-50%);
+  bottom: -32px;
+}
+
 /* add transition to links in main navigation */
 .main-nav-link,
 .main-nav-contact-link {
