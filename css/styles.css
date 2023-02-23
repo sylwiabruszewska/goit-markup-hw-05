@@ -111,15 +111,19 @@ h1 {
   color: var(--brand-color);
 }
 
+.active {
+  position: relative;
+}
+
 .active:after {
   display: block;
   content: "";
   height: 4px;
   background-color: var(--brand-color);
   border-radius: 2px;
-  position: relative;
-  transform: translateY(-50%);
-  bottom: -32px;
+  position: absolute;
+  width: 100%;
+  top: 45px;
 }
 
 /* add transition to links in main navigation */
