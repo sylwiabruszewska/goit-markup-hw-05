@@ -290,9 +290,10 @@ h1 {
   padding: 49px 45px 0 24px;
 }
 
-.box:hover .overlay {
+.portfolio-card-item:hover .overlay {
   transform: translateY(0);
   visibility: visible;
+  cursor: pointer;
 }
 
 .portfolio-card-item:hover {
