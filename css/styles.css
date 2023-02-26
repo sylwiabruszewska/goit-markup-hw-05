@@ -263,7 +263,7 @@ h1 {
   transform: translateY(0);
 }
 
-.box {
+.portfolio-card-item .box {
   overflow: hidden;
   position: relative;
 }
@@ -278,6 +278,7 @@ h1 {
   background: rgba(33, 150, 243, 0.9);
   text-align: left;
   transition: transform 250ms ease;
+  visibility: hidden;
 }
 
 .overlay p {
@@ -291,6 +292,7 @@ h1 {
 
 .box:hover .overlay {
   transform: translateY(0);
+  visibility: visible;
 }
 
 .portfolio-card-item:hover {
